@@ -112,7 +112,10 @@ Het is uitdagender om jouw eigen stappenplan te maken, maar als je niet weet waa
 
 ## Bonusopdrachten
 
+Hieronder staan een aantal bonus opdrachten om je Pokemon applicatie verder uit te breiden. Het lukt je misschien niet om alles te doen of misschien heb je zelf een beter idee. De gedachte hierachter is dat deze opdracht zich perfect leent om mee te experimenteren of er zelfs een compleet, interactief spel van te maken. Experimenteren en spelen met code, zijn de beste manieren om te leren programmeren.
+
 1. Bedenk of het mogelijk zou zijn om één of meer abstracte methodes te implementeren. En zo ja, implementeer deze!
 2. Met interfaces kan één Pokèmon twee verschillende types tegelijk hebben. Kun je dit implementeren?
 3. Pokemon is een spel waarbij pokemons met elkaar vechten om zo de beste pokemon trainer te worden. Jou Pokemon subklassen bevatten al vecht-methodes. Pas dit aan zodat ze een `enemy` als parameter krijgen, zodat je de hp kunt aanpassen van `enemy` en eventueel ook `this`.
-4. Gebruik `readln()` om je spel interactief te maken. Laat de gebruiker kiezen uit een lijst van pokemon. Geef de tegenstander een random pokemon uit de lijst. 
+4. Zorg dat bepaalde types sterker zijn tegen andere types. Bijvoorbeeld: een water pokemon is sterk tegen een fire pokemon en electric, maar minder sterk tegen gras en water. 
+5. Gebruik `readln()` om je spel interactief te maken. Laat de gebruiker kiezen uit een lijst van pokemon. Geef de tegenstander een random pokemon uit de lijst.
