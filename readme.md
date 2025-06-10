@@ -117,5 +117,12 @@ Hieronder staan een aantal bonus opdrachten om je Pokemon applicatie verder uit 
 1. Bedenk of het mogelijk zou zijn om één of meer abstracte methodes te implementeren. En zo ja, implementeer deze!
 2. Met interfaces kan één Pokèmon twee verschillende types tegelijk hebben. Kun je dit implementeren?
 3. Pokemon is een spel waarbij pokemons met elkaar vechten om zo de beste pokemon trainer te worden. Jou Pokemon subklassen bevatten al vecht-methodes. Pas dit aan zodat ze een `enemy` als parameter krijgen, zodat je de hp kunt aanpassen van `enemy` en eventueel ook `this`.
-4. Zorg dat bepaalde types sterker zijn tegen andere types. Bijvoorbeeld: een water pokemon is sterk tegen een fire pokemon en electric, maar minder sterk tegen gras en water. 
-5. Gebruik `readln()` om je spel interactief te maken. Laat de gebruiker kiezen uit een lijst van pokemon. Geef de tegenstander een random pokemon uit de lijst.
+4. Geef de aaval methodes van jou Pokemons een implementatie als:  
+   ```text
+   Pikachu (100 hp) valt Charmander (100 hp) aan met ThunderPunch.
+   Het is erg effectief
+   Charmander heeft nu 70 hp.
+   ```  
+   Probeer hierbij zo generiek mogelijk te werk te gaan
+5. Zorg dat bepaalde types sterker zijn tegen andere types. Bijvoorbeeld: een water pokemon is sterk tegen een fire pokemon en electric, maar minder sterk tegen gras en water. 
+6. Gebruik `readln()` om je spel interactief te maken. Laat de gebruiker kiezen uit een lijst van pokemon. Geef de tegenstander een random pokemon uit de lijst.
